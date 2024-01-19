@@ -10,10 +10,44 @@ import { SiReact } from "react-icons/si"
 import Fade from "react-reveal/Fade"
 const projects = [
   {
+    name: "The Food App",
+    img: "/thefoodapp.png",
+    link: "https://the-food-app-two.vercel.app/",
+    git: "https://github.com/KetanMangidkar/The_Food_App",
+    about:
+      "A dynamic food app crafted with React, SCSS for stylish UI, and Redux Toolkit for seamless state management. Boasting Google Authentication for secure logins, it offers a visually appealing and user-friendly experience.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiNodedotjs className={styles.stackIcon} />,
+      <SiExpress className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+    ],
+  },
+  {
+    name: "The Weather App",
+    img: "/theweatherapp.png",
+    link: "https://golden-marigold-9ab303.netlify.app/",
+    git: "https://github.com/KetanMangidkar/theweatherapp",
+    about:
+      "Real-time weather at your fingertips. This React app, powered by OpenWeather API, offers dynamic temperature graphs and expressive icons with React-ApexCharts and React Icon Library. Automatic updates for current location and weekly forecasts.",
+    stacks: [
+      <SiReact className={styles.stackIcon} />,
+      <SiNodedotjs className={styles.stackIcon} />,
+      <SiExpress className={styles.stackIcon} />,
+      <SiMongodb className={styles.stackIcon} />,
+      <SiJavascript className={styles.stackIcon} />,
+      <SiCss3 className={styles.stackIcon} />,
+      <SiHtml5 className={styles.stackIcon} />,
+    ],
+  },
+  {
     name: "anthropologie.com clone",
     img: "/antrhopologie.png",
     link: "https://anthropologie-clone.vercel.app/",
-    git: "https://github.com/Aniketkushwaha80/anthropologie-clone.git",
+    git: "https://github.com/KetanMangidkar/anthropologie-clone",
     about:
       "This is e-commerce website used for womens clothing, beauty products and home furniture and decore. This was a team project where I with my teammates had created. ",
     stacks: [
@@ -29,10 +63,10 @@ const projects = [
   {
     name: "Revv.co.in clone",
     img: "/Revv.png",
-    link: "https://revv-io.vercel.app/",
+    link: "https://revv-clone-project.netlify.app/",
     git: "https://github.com/KetanMangidkar/Revv.io.git",
     about:
-      "This is e-commerce website used for getting cars on rent. This was a team project where I with my teammates had created. ",
+      "This is a website clone of https://www.revv.co.in/ , this is a car rental website. Revv Cars is an Indian self-drive mobility startup. The languages which we used for front end part are HTML CSS and JavaScript.",
     stacks: [
      // <SiReact className={styles.stackIcon} />,
       <SiNodedotjs className={styles.stackIcon} />,

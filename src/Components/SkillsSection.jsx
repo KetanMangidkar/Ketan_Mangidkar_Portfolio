@@ -1,18 +1,18 @@
 // import { makeStyles } from "@material-ui/styles"
-import { SkillCard } from "./SkillCard"
-import styles from "./Styles/SkillsSection.module.css"
-import { GrReactjs } from "react-icons/gr"
-import { SiRedux } from "react-icons/si"
-import { SiJavascript } from "react-icons/si"
-import { SiHtml5 } from "react-icons/si"
-import { SiCss3 } from "react-icons/si"
-import { SiNodedotjs } from "react-icons/si"
-import { SiMongodb } from "react-icons/si"
-import { SiNpm } from "react-icons/si"
-import { SiPostman } from "react-icons/si"
-import { SiExpress } from "react-icons/si"
-import { FaGitAlt } from "react-icons/fa"
-import Fade from "react-reveal/Fade"
+import { SkillCard } from "./SkillCard";
+import styles from "./Styles/SkillsSection.module.css";
+import { GrReactjs } from "react-icons/gr";
+import { SiRedux, SiWebflow } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiHtml5 } from "react-icons/si";
+import { SiCss3 } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+import { SiNpm } from "react-icons/si";
+import { SiPostman } from "react-icons/si";
+import { SiExpress } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import Fade from "react-reveal/Fade";
 
 export function SkillsSection() {
   return (
@@ -102,8 +102,14 @@ export function SkillsSection() {
               <SiPostman className={`${styles.skillIcon} ${styles.gitIcon}`} />
             }
           />
+          {/* <SkillCard
+            skill="Webflow"
+            icon={
+              <SiWebflow className={`${styles.skillIcon} ${styles.gitIcon}`} />
+            }
+          /> */}
         </div>
       </Fade>
     </div>
-  )
+  );
 }
