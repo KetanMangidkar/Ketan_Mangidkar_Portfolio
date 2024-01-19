@@ -1,12 +1,12 @@
-import { Button } from "@material-ui/core"
-import { makeStyles } from "@material-ui/styles"
-import styles from "./Styles/HeroSection.module.css"
+import { Button } from "@material-ui/core";
+import { makeStyles } from "@material-ui/styles";
+import styles from "./Styles/HeroSection.module.css";
 
-import { AiOutlineGithub } from "react-icons/ai"
-import { AiFillLinkedin } from "react-icons/ai"
+import { AiOutlineGithub } from "react-icons/ai";
+import { AiFillLinkedin } from "react-icons/ai";
 
-import { RiDownloadLine } from "react-icons/ri"
-import Fade from "react-reveal/Fade"
+import { RiDownloadLine } from "react-icons/ri";
+import Fade from "react-reveal/Fade";
 
 const useStyles = makeStyles({
   contactBtn: {
@@ -39,9 +39,9 @@ const useStyles = makeStyles({
   a: {
     textDecoration: "none",
   },
-})
+});
 export function HeroSection() {
-  const classes = useStyles()
+  const classes = useStyles();
   return (
     <div className={styles.rootCont} id="hero">
       <Fade>
@@ -50,7 +50,9 @@ export function HeroSection() {
           <p>
             I am <span>Ketan Mangidkar</span>{" "}
           </p>
-          <p>A <span>Full Stack Web Developer</span></p>
+          <p>
+            A <span>Full Stack Web Developer</span>
+          </p>
           <a
             href="https://drive.google.com/file/d/11PvOwVvKXoumIPU1TzUpUx2Ol6FLjW_V/view?usp=sharing"
             target="_blank"
@@ -62,8 +64,8 @@ export function HeroSection() {
                   fontSize: "18px",
                   marginLeft: "10px",
                   marginRight: "5px",
-                  position:"relative",
-                  zIndex:"1",
+                  position: "relative",
+                  zIndex: "1",
                 }}
               />
               Resume
@@ -71,14 +73,17 @@ export function HeroSection() {
           </a>
         </div>
 
-        <div className={styles.photoCont}
-        style={{
-          position:"relative",
-          zIndex:"-1",
-        }}>
+        <div
+          className={styles.photoCont}
+          style={{
+            position: "relative",
+            zIndex: "-1",
+          }}
+        >
           <img
-            src="https://camo.githubusercontent.com/e4a569755580f96dce0e6d65bc761e0d9aef0fecae524ec73a1b0be60fc934fa/68747470733a2f2f7777772e6d79676f2e67652f75706c6f6164732f626c6f672f313538343032333739352e6a7067"
-            alt=""
+            // src="https://camo.githubusercontent.com/e4a569755580f96dce0e6d65bc761e0d9aef0fecae524ec73a1b0be60fc934fa/68747470733a2f2f7777772e6d79676f2e67652f75706c6f6164732f626c6f672f313538343032333739352e6a7067"
+            src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif"
+            alt="MERN Stack Developer"
             className={styles.heroImg}
           />
         </div>
@@ -102,5 +107,5 @@ export function HeroSection() {
         </div>
       </Fade>
     </div>
-  )
+  );
 }
