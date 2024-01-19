@@ -54,7 +54,7 @@ export function HeroSection() {
             A <span>Full Stack Web Developer</span>
           </p>
           <a
-            href="https://drive.google.com/file/d/11PvOwVvKXoumIPU1TzUpUx2Ol6FLjW_V/view?usp=sharing"
+            href="https://drive.google.com/file/d/13J3XlR3z8dhSBHCVTx5-_8QbJlU1XQbU/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
